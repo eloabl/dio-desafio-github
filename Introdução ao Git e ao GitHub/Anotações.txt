@@ -1,0 +1,14 @@
+GitHub:
+Para criar um repositório > "your repositories" > new > dar um nome ao repositório, uma descrição e desmarcar ou marcar "adicionar Readme" caso já tenha criado o index ou não > copiar para a área de transferência o https sugerido para o repositório.
+Retornar ao Git Bash > entrar na pasta desejada através do comando cd /c/workspace/livro-receitas > cadastrar o repositório remoto no Git Bash > empurrar a versão do nosso repositório local para o repositório remoto
+
+- git remote add origin = comando que cadastra o repositório remoto no Git Bash
+- git remote -v = comando que lista os repositórios remotos cadastrados
+- git push origin master
+
+Conflitos que podem surgir no Github: 
+Quando ocorre clonagem de código (alguém pegou um repositório seu). Pode ocorrer o que se chama de conflito de merge > o GitHub tenta juntar duas alterações de duas pessoas na mesma linha, mas nesse caso, precisa  de alguém manualmente fazer a própria correção/atualização. 
+
+* git pull origin master = comando que puxa um conteúdo do repositório remoto para o Git (em caso de conflito merge, pega a alteração que não tinha no repositório de trabalho mas estava no GitHub) 
+
+Resolvemos o arquivo manualmente, e tamos que commitá-lo novamente. Depois de tudo solucionado, utilizar os comandos git add * ; git commit -m 
